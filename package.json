@@ -5,16 +5,15 @@
   "author": "toolX",
   "license": "MIT",
   "scripts": {
-    "serve": "live-server public/",
-    "build": "webpack --watch",
-    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch"
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
   },
   "dependencies": {
-    "live-server": "^1.2.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "validator": "^10.9.0",
-    "webpack": "^4.26.0"
+    "webpack": "^4.26.0",
+    "webpack-dev-server": "^3.1.10"
   },
   "devDependencies": {
     "@babel/core": "^7.1.6",
